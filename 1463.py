@@ -20,4 +20,3 @@ for i in range(5, 1000001):
     table[i] = min(a, b, table[i-1]) + 1
 
 print(table[N])
-    
