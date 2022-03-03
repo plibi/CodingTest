@@ -1,18 +1,18 @@
 import sys
 n, m = map(int, sys.stdin.readline().split())
-lengths = [int(i) for i in sys.stdin.readline().split()]
+lengths = [int(sys.stdin.readline()) for _ in range(n)]
 
-left = 0
+left = 1        # ZeroDivisionError
 right = max(lengths)
 answer = 0
 
 while left <= right:
     mid = (left + right) // 2
-    total = 0
-    for i in lengths:
-        if i > mid:
-            total += i - mid
-    if total < m:
+    quantity = 0
+    for i in lengths:   
+        quantity += i // mid        # i > mid일 필요x
+
+    if quantity < m:
         right = mid - 1
     else:
         answer = mid
