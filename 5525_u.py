@@ -3,9 +3,10 @@ M = int(input())
 S = input()
 
 P = 'I' + ('OI' * N)
+
+# 50점
 count = 0
 idx = 0
-
 while True:
     if S.find(P, idx) != -1:
         count += 1
