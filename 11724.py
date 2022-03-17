@@ -23,4 +23,5 @@ for t in range(1, n+1):
                     q.append(i)
                     visited[i] = True
         count += 1
+        
 print(count)
