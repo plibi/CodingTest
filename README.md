@@ -4,8 +4,6 @@
 
 대부분 Python, 약간의 C++을 곁들인 / SQL 예정
 
-
-
 - ``BOJ`` [(백준 온라인 저지)](https://www.acmicpc.net/)
   - Pros
     - 다양하고 많은 문제들
@@ -23,8 +21,8 @@
     - 카카오에서 실시한 테스트나 월간 코드챌린지 같은 대회 문제들도 공개되어 있음
     - 좀 더 효율적인 다른사람의 코드를 찾아보기 좋음
   - Cons
-    - 
+  - 
+    -
   - ...
 - ``삼성 소프트웨어 아카데미`` [(SW Expert Academy)](https://swexpertacademy.com/main/main.do)
   - ...
-
